@@ -7,6 +7,7 @@ namespace CEA_EDU.Domain
     public abstract class ManagerBase
     {
         private IRepository _repository;
+
         public IRepository Repository
         {
             get
